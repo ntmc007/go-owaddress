@@ -38,6 +38,7 @@ import (
 	"github.com/star001007/go-owaddress/coins/macc"
 	"github.com/star001007/go-owaddress/coins/moac"
 	"github.com/star001007/go-owaddress/coins/nas"
+	"github.com/star001007/go-owaddress/coins/near"
 	"github.com/star001007/go-owaddress/coins/nhss"
 	"github.com/star001007/go-owaddress/coins/ntn"
 	"github.com/star001007/go-owaddress/coins/nuls2"
@@ -135,5 +136,6 @@ func init() {
 	RegisterAddressVerify(avax.DefaultStruct, avax.CoinName)
 	RegisterAddressVerify(ada.DefaultStruct, ada.CoinName)
 	RegisterAddressVerify(sol.DefaultStruct, sol.CoinName)
+	RegisterAddressVerify(near.DefaultStruct, near.CoinName)
 	RegisterAddressVerify(luna.DefaultStruct, luna.CoinName)
 }
