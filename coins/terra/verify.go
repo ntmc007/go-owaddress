@@ -1,4 +1,4 @@
-package luna
+package terra
 
 import (
 	"strings"
@@ -9,7 +9,7 @@ import (
 // for register
 var (
 	DefaultStruct = &Verifier{}
-	CoinName      = "luna"
+	CoinName      = "terra"
 )
 
 type Verifier struct{}

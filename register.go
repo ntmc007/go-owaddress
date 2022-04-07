@@ -34,7 +34,6 @@ import (
 	"github.com/star001007/go-owaddress/coins/ilc"
 	"github.com/star001007/go-owaddress/coins/kpg"
 	"github.com/star001007/go-owaddress/coins/ltc"
-	"github.com/star001007/go-owaddress/coins/luna"
 	"github.com/star001007/go-owaddress/coins/macc"
 	"github.com/star001007/go-owaddress/coins/moac"
 	"github.com/star001007/go-owaddress/coins/nas"
@@ -50,6 +49,7 @@ import (
 	"github.com/star001007/go-owaddress/coins/sgu"
 	"github.com/star001007/go-owaddress/coins/sinoc"
 	"github.com/star001007/go-owaddress/coins/sol"
+	"github.com/star001007/go-owaddress/coins/terra"
 	"github.com/star001007/go-owaddress/coins/tron"
 	truechain "github.com/star001007/go-owaddress/coins/true"
 	"github.com/star001007/go-owaddress/coins/trx"
@@ -137,5 +137,5 @@ func init() {
 	RegisterAddressVerify(ada.DefaultStruct, ada.CoinName)
 	RegisterAddressVerify(sol.DefaultStruct, sol.CoinName)
 	RegisterAddressVerify(near.DefaultStruct, near.CoinName)
-	RegisterAddressVerify(luna.DefaultStruct, luna.CoinName)
+	RegisterAddressVerify(terra.DefaultStruct, terra.CoinName)
 }
